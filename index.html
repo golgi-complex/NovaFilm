@@ -1,0 +1,303 @@
+<!DOCTYPE HTML>
+<html style="scroll-behavior:smooth">
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>НоваФилм</title>
+	<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
+<!--Стили-->
+	<link rel="stylesheet" href="CSS/body.css">
+	<link rel="stylesheet" href="CSS/navigation.css">
+	<link rel="stylesheet" href="CSS/burger.css">
+	<link rel="stylesheet" href="CSS/main.css">
+	<link rel="stylesheet" href="CSS/catalog.css">
+	<link rel="stylesheet" href="CSS/about-us.css">
+	<link rel="stylesheet" href="CSS/subscribe.css">
+	<link rel="stylesheet" href="CSS/contacts.css">
+	<link rel="stylesheet" href="CSS/footer.css">
+	<link rel="stylesheet" href="CSS/modal.css">
+	<link rel="stylesheet" href="CSS/fake.css">
+</head>
+<body>
+<!--Панель навигации-->
+	<div id="top" class="up"></div>
+	<div class="button-up" onclick="scrollTopTop()">↑</div>	
+	<div class="main">
+		<div class="nav-button-block">
+			<div class="logo">
+				<img src="images/logo.png" alt="logo novafilm">
+			</div>
+			<div class="logo-mini">
+				<img src="images/logo-mini.png" alt="logo-mini novafilm">
+			</div>
+			<header class="header">
+				<div class="header_container">
+					<a href="" class="header_logo">
+						<img src="images/logo-mini.png" alt="logo-mini-novafilm"> 
+					</a>
+					<div class="header_menu menu">
+						<div class="menu_icon">
+							<span></span>
+						</div>
+						<nav class="menu_body">
+							<ul class="menu_list">
+								<li><a data-goto=".box" href="#" class="menu_link">ГЛАВНАЯ</a></li>
+								<li><a data-goto=".catalog" href="#" class="menu_link">КАТАЛОГ</a></li>
+								<li><a data-goto=".contacts" href="#" class="menu_link">КОНТАКТЫ</a></li>
+								<li><a data-goto=".about" href="#" class="menu_link">О НАС</a></li>
+							</ul>
+						</nav>
+					</div>
+				</div>
+			</header>
+			<div class="block">
+				<a href="#home" class="nav-button">ГЛАВНАЯ</a>
+				<a href="#catalog" class="nav-button">КАТАЛОГ</a>
+				<a href="#contacts" class="nav-button">КОНТАКТЫ</a>
+				<a href="#about-us" class="nav-button">О НАС</a>
+			</div>
+		</div>
+<!--Главная-->
+		<a name="home"></a> 
+		<div class="box">
+			<div class="main-text-container">
+				<h1 class="title">ООО "НОВАФИЛМ"</h1>
+				<p>Современное экологичное производство пленок полиэтилентерефталантных (ПЭТ и ПЭТ/ПЭ).</p>
+				<hr class="line" style="margin-left:0;">
+				<p style="padding-top:2vh;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				<a href="#contacts" class="button-red" style="margin:2vh 0vh 2vh 0vh">Связаться с нами</a>
+			</div>
+			<div class="main-img-container">
+				<img src="images/main-pic.jpg" alt="main-pic" style="box-shadow:0px -5px 40px 5px #878787;">
+			</div>
+		</div>
+	</div>
+<!--Каталог-->
+	<a name="catalog"></a>
+	<catalog class="catalog">
+		<div class="catalog-title">
+			<h1 class="title">НАША ПРОДУКЦИЯ</h1>
+			<p>Каталог продукции производимой нашим предприятием</p>
+			<hr class="line">
+		</div>
+		<div class="catalog-block" style="padding-top:2vh">
+			<div class="catalog-top-right">
+				<a href="#plenka1" class="catalog-button modal_link">
+					<img src="images/plenka1.jpg" alt="plenka1">
+				</a>
+				<a href="#plenka4" class="catalog-button modal_link">
+					<img src="images/plenka4.jpg" alt="plenka4">
+				</a>
+				<a href="#rulony1" class="catalog-button modal_link">
+					<img src="images/rulony1.jpg" alt="rulony1">
+				</a>
+			</div>
+			<div class="catalog-bottom-left">
+				<a href="#plenka3" class="catalog-button modal_link">
+					<img src="images/plenka3.jpg" alt="plenka2">
+				</a>
+				<a href="#plenka2" class="catalog-button modal_link">
+					<img src="images/plenka2.jpg" alt="plenka2">
+				</a>
+				<a href="#rulony2" class="catalog-button modal_link">
+					<img src="images/rulony2.jpg" alt="rulony2">
+				</a>
+			</div>
+		</div>
+	</catalog>
+	<a href="#top" class="button-up">↑</a>
+<!--О нас-->
+	<a name="about-us"></a> 
+	<div class="about">
+		<div>
+			<h1 class="about_title">НАШЕ ПРОИЗВОДСТВО</h1>
+			<p>Только современное высокотехнологичное европейское оборудование.</p>
+			<hr class="line" style="margin-left:0;">
+		</div>
+		<div class="about_content">
+			<div class="about-text-container">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+			<div class="about-img-container">
+				<img src="images/bandera.jpg" alt="bandera">
+			</div>
+		</div>
+	</div>
+<!--Связаться с нами-->
+	<div class="subscribe" style="background:url(images/plenka-bg.jpg); background-position: center center;">
+		<div class="subscribe-title">
+			<h1 class="title">ПРОИЗВОДСТВО ПЛЕНОК ВСЕХ ЦВЕТОВ И РАЗМЕРОВ</h1>
+			<p>подпишитесь на нашу рассылку и всегда будьте в курсе</p>
+		</div>
+		<div class="subscribe-container">
+			<div class="subscribe-email">
+				<input class="subscribe-block-small" placeholder="Ваша электронная почта"></input>
+			</div>
+			<div class="subscribe-button">	
+				<div class="button-red">Подписаться</div>
+			</div>
+		</div>
+	</div>
+<!--Контакты-->
+	<a name="contacts"></a> 
+	<div class="contacts">
+		<div class="contacts-title">
+			<h1 class="title">НАШИ КОНТАКТЫ</h1>
+			<p>Задайте нам любой интересующий вопрос и мы обязательно Вам ответим</p>
+			<hr class="line" style="margin-left:0px;">
+		</div>
+		<div class="contacts-container">
+			<div class="name-email-box">
+				<div class="name-email-container">
+					<div class="name-email-field">
+						<input class="name-email-block" placeholder="Имя"></input>
+					</div>
+					<div class="name-email-field">
+						<input class="name-email-block" placeholder="Email"></input>
+					</div>
+				</div>
+				<div class="message-container">
+					<input class="message-block" placeholder="Напишите нам"></input>
+				</div>
+				<div class="button-container">
+					<div class="button-red" style="width:87.5%">Отправить сообщение</div>
+				</div>
+			</div>
+			<div class="our-contacts">
+				<div class="our-contacts-text">
+					<h4>НАШИ КОНТАКТЫ</h4>
+					<p>Республика Беларусь, 246007, г.Гомель, ул.Федюнинского, 19, корп.24, офис 1</p>
+					<p>УНП 810001369</p>
+					<p>office@novafilm.by</p>
+				</div>
+			</div>
+		</div>
+		<footer>
+			<div class="copyright">
+				<p style="padding:0 0 0 0;">© Copyright. All rights reserved.</p>
+			</div>
+			<div class="partners-container">
+				<h5 style="color:white; padding:0 0 0 0;">НАШИ ПАРТНЕРЫ:</h5>
+				<a href="https://kashtan.ru/" target="_blank">
+					<img src="images/kashtan.png" alt="kashtan" class="partners">
+				</a>
+				<a href="https://intertapes.by/" target="_blank">
+					<img src="images/intertapes.png" alt="intertapes" class="partners">
+				</a>
+			</div>
+		</footer>
+	</div>
+<!--Модальные окна-->
+	<div id="plenka1" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Пленка ПЭТФ-1</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/plenka1.jpg" alt="plenka1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="plenka4" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Пленка АПЭТ ПЭТФ</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/plenka4.jpg" alt="plenka4">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rulony1" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Пленка в рулонах 1</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/rulony1.jpg" alt="rulony1">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="plenka2" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Пленка ПЭТФ-2</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/plenka2.jpg" alt="plenka2">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="plenka3" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Плека ПЭТ-Э</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/plenka3.jpg" alt="plenka3">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="rulony2" class="modal">
+		<a href="#top" class="modal_area"></a>
+		<div class="modal_body">
+			<div class="modal_content">
+				<a href="#top" class="modal_close">X</a>
+				<div class="modal_title">Пленка в рулонах 2</div>
+				<hr class="line">
+				<div class="modal_container">
+					<div class="modal_text">
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					</div>
+					<div class="modal_image">
+						<img src="images/rulony2.jpg" alt="rulony2">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!--javascript-->
+	<script src="JS/script.js"></script>
+</body>
+</html>

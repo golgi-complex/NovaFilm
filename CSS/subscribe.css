@@ -1,0 +1,93 @@
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.subscribe-title {
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction: column;
+    padding-top: 5%;
+    padding-bottom: 2vh;
+    color: white;
+}
+@media (max-width: 992px) {
+    .subscribe-title {
+        width: 80%;
+    }
+}
+
+.subscribe-container {
+    display: flex;
+    width: 100%;
+    padding-bottom: 5%;
+}
+@media (max-width: 767px) {
+    .subscribe-container {
+        flex-direction: column;
+    }
+}
+
+.subscribe-email {
+    display: flex;
+    width: 60%;
+    justify-content: end;
+    padding-right: 2vw;
+}
+@media (max-width: 767px) {
+    .subscribe-email {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.subscribe-button {
+    display: flex;
+    width: 40%;
+    justify-content: start;
+    align-items: center;
+}
+@media (max-width: 767px) {
+    .subscribe-button {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        padding-top: 2vh;
+    }
+}
+
+/*--ЗАМЕНИТЬ НА ФОРМУ ВВОДА EMAIL */
+.subscribe-block-small {
+    display: flex;
+    width: 50%;
+    height: 50px;
+    background-color: white;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 0;
+    color: grey;
+}
+@media (max-width: 992px) {
+    .subscribe-block-small {
+        width: 65%;
+    }
+}
+@media (max-width: 767px) {
+    .subscribe-block-small {
+        width: 80%;
+    }
+}
+.subscribe-block-small:focus{
+    text-align: start;
+    background-color: white;
+    color: black;
+    font-size: 14px;
+    border: 0;
+}
